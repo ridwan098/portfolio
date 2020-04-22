@@ -53,7 +53,9 @@
             </div>
             <!-- Masthead Subheading-->
             <p class="masthead-subheading font-weight-light mb-0">Software Developer - Web Designer - Tech Enthusiast
-            </p>
+            </p><br>
+            <button class="btn btn-outline-light"><u style="text-decoration: none;"
+                    href="#portfolio">Projects</u></button>
         </div>
     </header>
     <!-- Portfolio Section-->
@@ -156,9 +158,10 @@
                         student at Queen Mary University of
                         London. I like building awesome software. I've built websites, applications and even
                         games! If you are interested, you can view some of my favourite projects in my
-                        <a href="#portfolio" style="color: white;"><u>project section</u></a>
+                        <a style="color: white;"><u href="#portfolio" style="cursor: pointer;"> project section</u></a>
                         below. Otherwise, you can reach out to me if you need something built or simply want
-                        to <a href="#location" style="color: white;"><u> get in touch</u></a>
+                        to <a href="#location" style="color: white;"><u href="#contact" style="cursor: pointer;"> get
+                                in touch</u></a>
 
                     </p>
                 </div>
@@ -290,7 +293,7 @@
         <div class="container"><small>Copyright © Ridwan Gbadamosi 2020</small></div>
     </section>
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
-    <div class="scroll-to-top d-lg-none position-fixed">
+    <div class="scroll-to-top  position-fixed">
         <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i
                 class="fa fa-chevron-up"></i></a>
     </div>
@@ -513,6 +516,17 @@
     <!-- Contact form JS-->
     <script src="assets/mail/jqBootstrapValidation.js"></script>
     <script src="assets/mail/contact_me.js"></script>
+    <!--Glide feature of my website-->
+
+
+    <script>
+        $('u').click(function () {
+            $('html, body').animate({
+                scrollTop: $($(this).attr('href')).offset().top
+            }, 500);
+            return false;
+        });
+    </script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
 </body>
