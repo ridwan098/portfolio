@@ -1,4 +1,5 @@
-# portfolio
+![](assets/img/github%20readme%20img/portfolioScreenshot.png)
+# Portfolio
 This is my personal portfolio built with html, css, bootstrap, jquery and javascript.
 
 
