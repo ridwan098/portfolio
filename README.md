@@ -1,10 +1,10 @@
 # portfolio
-This is my personal portfolio built with html, css, bootstrap, jquery and javascript
-currently it is at: https://ridwan.co.uk/
+This is my personal portfolio built with html, css, bootstrap, jquery and javascript.
 
-Start the development server (changes will now update live in browser)
+
+You can view my portfolio at: (will be redirected to)
 ```
-> npm start
+> https://ridwan.co.uk/
 ```
 
 
