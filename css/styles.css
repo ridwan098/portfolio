@@ -166,6 +166,7 @@ a {
   color: #1abc9c;
   text-decoration: none;
   background-color: transparent;
+  scroll-behavior:smooth;
 }
 
 a:hover {
@@ -234,6 +235,7 @@ label {
 
 button {
   border-radius: 0;
+  scroll-behavior: smooth;
 }
 
 button:focus {
